@@ -1,0 +1,51 @@
+/* ****REGOLE GENERALI***** */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+ul,ol,li,menu{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+/* CONTAINER-APP-SPOTIFY */
+.container-app-spotify{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border: 5px solid purple;
+    background-color: blueviolet;
+}
+/* SIDE BAR LATERALE */
+.container-aside-bar-app{
+    flex-basis: 200px;
+    border: 5px solid blue;
+    background-color: aquamarine;
+    
+}
+.container-main-app{
+    display: flex;
+    flex-grow: 1;
+    border: 5px solid yellow;
+    background-color: rgb(168, 126, 63);
+}
+/* PLAY BAR-SIDE */
+.container-bar-play-music{
+    align-items: flex-end;
+    flex-shrink: 0;
+    border: 5px solid darkgreen;
+    background-color: greenyellow;
+}
+/* CONTENUTO PRINCIPALE */
+.main-content{
+    flex-basis: calc(100% - 200px);
+    border: 5px solid red;
+    background-color: brown;
+    
+}
