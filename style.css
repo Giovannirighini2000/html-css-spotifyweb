@@ -60,7 +60,7 @@ a{
     display: flex;
 }
 .img-brain-bar{
-    max-width: 44px;
+    width: 44px;
 }
 .bar-play{
     align-items: center;
@@ -85,6 +85,7 @@ a{
   align-items: center;
   height: 100%;
   justify-content: space-between;
+  gap: 0px;
 }
 .play-bold{
     font-weight: bold;
@@ -138,7 +139,7 @@ a{
 }
 .line-full-track-music{
     background-color: var(--grey1);
-    width: 430px;
+    width: 100%;
     border: 0px solid transparent;
     border-radius: 40px;
     
@@ -159,7 +160,7 @@ a{
 
 }
 .mini-set{
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     margin-right: 10px;
 }
@@ -175,6 +176,16 @@ a{
     color:white;
     font-weight: bold;
 }
+.section-song{
+    flex-basis: 33%;
+}
+.section-play{
+    flex-basis: 34%;
+}
+.section-setting-play{
+    flex-basis: 33%;
+}
+ 
 /* CONTENUTO PRINCIPALE */
 .main-content{
     flex-basis: calc(100% - 230px);
