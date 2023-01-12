@@ -24,9 +24,16 @@ a{
 }
 /* SIDE BAR LATERALE */
 .container-aside-bar-app{
-    flex-basis: 200px;
+    flex-basis: 230px;
     border: 5px solid blue;
     background-color: aquamarine;
+    
+}
+/* MOBILE */
+@media screen and (max-width:552px) {
+    .container-aside-bar-app{
+        flex-basis: 50px;
+    }
     
 }
 .container-main-app{
@@ -44,8 +51,15 @@ a{
 }
 /* CONTENUTO PRINCIPALE */
 .main-content{
-    flex-basis: calc(100% - 200px);
+    flex-basis: calc(100% - 230px);
     border: 5px solid red;
     background-color: brown;
+    
+}
+/* MOBILE */
+@media screen and (max-width:552px) {
+    .main-content{
+        flex-basis: calc(100% - 50px);
+    }
     
 }
