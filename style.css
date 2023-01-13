@@ -56,12 +56,89 @@ html{font-family: 'Open Sans', sans-serif;
 /* SIDE BAR LATERALE */
 .container-side-bar-app{
     flex-basis: 230px;
-    border: 5px solid blue;
-    background-color: aquamarine;
+    
+    background-color: rgb(20, 19, 19);
     flex-shrink: 0;
     overflow: hidden;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;  
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.container-contets{
+    display: contents
+}
+.logo{
+    width: 130px;
+}
+.home{
+    width: 18px;
+}
+.cerca{
+    width: 22px;
+}
+.libreria{
+    width: 22px;
+}
+.text-control-apps{
+    color: var(--grey1);
+    text-transform:capitalize;
+    font-weight: bold;
+}
+.row-nav-apps{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.spa-apps{
+    margin-right: 6px;
+}
+.spa-apps-home{
+    margin-right: 10px;
     
 }
+.color-apps-home {
+    color: white;
+}
+.plus{
+    background-color: var(--grey1);
+    border: 8px solid var(--grey1);
+    margin-bottom: 24px;
+
+}
+.text-control-playlist{
+    color: var(--grey1);
+    margin-bottom: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.crea-playlist{
+    color: var(--grey1);
+    margin-left: 10px;
+    font-size:18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.playlist-apps{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* MOBILE */
 @media screen and (max-width:552px) {
     .container-side-bar-app{
