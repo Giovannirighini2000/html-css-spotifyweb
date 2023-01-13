@@ -19,6 +19,8 @@ a{
     --grey1:#6b6b6d;
     --drak1-bar:#282828;
     --side-bar-width:220px;
+    --side-bar-878w:210px;
+    --side-bar-878w-control:190px;
     --side-bar-639w:160px;
     --side-bar-639w-control:200px;
     --side-bar-552w:140px;
@@ -220,10 +222,16 @@ html{font-family: 'Open Sans', sans-serif;
 
 @media screen and (max-width:878px) {
     .section-song{
-        margin-right: 30px;
+        margin-right: 28px;
+        flex-basis: var(--side-bar-878w) ;
     }
     .section-setting-play{
-        margin-left: 30px;
+        margin-left: 25px;
+        flex-basis: var(--side-bar-878w-control);
+    }
+    .text-autor{
+        margin-right: 30px;
+        font-size: 9px;
     }
     
 }
@@ -241,6 +249,7 @@ html{font-family: 'Open Sans', sans-serif;
     }
     .text-autor {
         margin-right: 25px;
+      
     }
     .time-frist{
         margin-right: 12px;
@@ -273,7 +282,7 @@ html{font-family: 'Open Sans', sans-serif;
         margin-right: 10px;
     }
     .text-autor {
-        margin-right: 20px;
+        margin-right: 21px;
     }
     .list-icon{
         margin-right: 8px;
