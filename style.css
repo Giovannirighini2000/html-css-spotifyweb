@@ -203,29 +203,27 @@ html{font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
 .section-song{
-    flex-basis: 210px;
+    flex-basis: 230px;
+    margin-right: 40px;
 }
 .section-play{
-    flex-basis: 30%;
+    flex-basis: 35%;
 }
 .section-setting-play{
     flex-basis: 230px;
+    margin-left: 40px;
 }
 .row-icon-like{
    display: flex;
 }
-.bar-play{
-    padding-right: 40px;
-}
-.mini-set{
-    padding-left: 40px;
-}
+
+
 @media screen and (max-width:878px) {
-    .bar-play{
-        padding-right: 35px;
+    .section-song{
+        margin-right: 30px;
     }
-    .mini-set{
-        padding-left: 35px;
+    .section-setting-play{
+        margin-left: 30px;
     }
     
 }
@@ -235,9 +233,11 @@ html{font-family: 'Open Sans', sans-serif;
     }
     .section-song{
         flex-basis: var(--side-bar-639w);
+        margin-right: 20px;
     }
     .section-setting-play{
         flex-basis: var(--side-bar-639w-control);
+        margin-left: 15px;
     }
     .text-autor {
         margin-right: 25px;
@@ -251,12 +251,10 @@ html{font-family: 'Open Sans', sans-serif;
     .img-brain-bar{
         width: 37px;
     }
-    .bar-play{
-        padding-right: 20px;
+    .hearth-icon-bar-side{
+        margin-right: 0px;
     }
-    .mini-set{
-        padding-left: 15px;
-    }
+    
 }
 @media screen and (max-width:552px){
     .section-song{
@@ -264,6 +262,29 @@ html{font-family: 'Open Sans', sans-serif;
     }
     .section-setting-play{
         flex-basis: var(--side-bar-552w-control);
+    }
+    .img-brain-bar{
+        width: 28px;
+    }
+    .section-play{
+        flex-basis: 30%;
+    }
+    .img-bar-play{
+        margin-right: 10px;
+    }
+    .text-autor {
+        margin-right: 20px;
+    }
+    .list-icon{
+        margin-right: 8px;
+
+    }
+    .tv-remote-icon{
+        margin-right: 8px;
+
+    }
+    .volume-icon-set{
+        margin-right: 5px;
     }
     
 }
