@@ -186,24 +186,83 @@ html{font-family: 'Open Sans', sans-serif;
     margin-bottom: 12px;
 
 }
+.responsive{
+    display: none;
+}
+/* MEDIA QUERY MOBILE 552PX*/
+@media screen and (max-width:552px) {
+    .logo{
+        display: none;
+    }
+    .responsive{
+        width: 30px;
+    }
+    .text-control-apps{
+        display: none;
+    }
+    .spa-apps-home{
+        width: 24px; 
+    }
+    .spa-apps{
+        width: 24px;
+    }
+    .playlist{
+        display: none;
+    }
+    .responsive{
+        display: block;
+    }
+    .border-apps-home{
+        padding: 0px;
 
+    }
+    .pad-apps-items{
+        padding-left: 13px;
+        
+    }
+    .pad-logo-resp{
+        padding-left: 10px;
+    }
+    .container-side-bar-app{
+        gap: 0px;
+    }
+    .pad-resp-home{
+        padding-left: 13px;
+        margin-top: 13px;
+    }
+    .border-apps-home{
+        border: 0px;
+    }
+    .logo-pad-top{
+        padding-top: 4px;
+    }
+    .down-apps-text{
+        display: none;
+    }
+    .down-apps{
+        width: 16px;
+        
+    }
+    .profilo-text-spo{
+        display: none;
+    }
+    .download::after{
+        display: none;
+    }
+    .extra-pad-down{
+        padding-left: 3px;
+        margin-bottom: 20px;
+    }
+}
 
-
-
-
-
-
-
-
-
-
-/* MOBILE */
 @media screen and (max-width:552px) {
     .container-side-bar-app{
         flex-basis: 50px;
     }
     
 }
+
+
 .container-main-app{
     display: flex;
     flex-grow: 1;
