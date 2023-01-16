@@ -159,7 +159,7 @@ html{font-family: 'Open Sans', sans-serif;
     opacity: 0.5;
     
 }
-.column-card{
+.relative{
     position: relative;
 }
 .position-img-player{
