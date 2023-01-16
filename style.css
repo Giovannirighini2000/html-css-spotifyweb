@@ -178,17 +178,12 @@ html{font-family: 'Open Sans', sans-serif;
 .hover-img:hover .position-img-player{
     opacity: 1;
 }
-.insider-line-track-music:hover{
- background-color: greenyellow;
-}
+
 .insider-line-track-music{
     position: relative;
     
 }
-.dot-green:hover{
-    opacity: 1;
 
-}
 .dot-green{      
     height: 15px;
     width: 15px;
@@ -201,7 +196,25 @@ html{font-family: 'Open Sans', sans-serif;
     opacity: 0;
     
 }
-
+.line-full-track-music:hover .insider-line-track-music{
+    background-color: greenyellow;
+}
+.line-full-track-music:hover .dot-green{
+    opacity: 1;
+}
+.line-full-track-music-small:hover .insider-line-track-music{
+    background-color: greenyellow;
+}
+.line-full-track-music-small:hover .dot-green{
+    opacity: 1;
+}
+.pad-apps-items:hover .hover-background{
+    background-color: white;
+    border: white;
+}
+.pad-apps-items:hover .color-white-hover{
+    color: white;
+}
 @media  screen and (max-width:878px) {
    .card-song{
         flex-basis: calc(100% * (3/12) - 40px / 4);
