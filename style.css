@@ -34,11 +34,65 @@ html{font-family: 'Open Sans', sans-serif;
 /* CONTENUTO PRINCIPALE */
 .main-content{
     flex-basis: calc(100% - 230px);
-    border: 5px solid red;
-    background-color: brown;
-    overflow-y: auto;
     
+    background-color: #141922;
+    overflow-y: auto;  
 }
+.button-flex-end{
+    background-color: #080b12;
+    display: flex;
+    justify-content: flex-end;
+}
+.upgrade-button{
+    margin-top: 20px;
+    margin-bottom: 28px;
+    text-decoration: none;
+    background-color: #080b12;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 36px;
+    border-radius: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 4px;
+}
+.section-content-p{
+   
+    /* margin: 0 auto; */
+}
+
+.up{
+    text-transform: uppercase;
+    font-size: 12px ;
+    font-weight: bold;
+    color: #72757a;
+    flex-wrap: wrap;
+    column-gap: 20px; 
+    justify-content: center;
+}
+
+.green-p-main::after{  
+    content: '';
+    display: block;
+    margin: 0 auto;
+    height: 2px;
+    width: 35px;
+    background: greenyellow;
+    margin-top: 5px;
+}
+.container-main-content{
+    padding: 20px;
+}
+.container-video-song{
+
+}
+
+
+
+
+
+
+
 /* MOBILE */
 @media screen and (max-width:552px) {
     .main-content{
@@ -87,6 +141,7 @@ html{font-family: 'Open Sans', sans-serif;
     color: var(--grey1);
     text-transform:capitalize;
     font-weight: bold;
+    font-size: 14px;
 }
 .row-nav-apps{
     display: flex;
@@ -115,16 +170,18 @@ html{font-family: 'Open Sans', sans-serif;
     margin-bottom: 24px;
     font-weight: bold;
     text-transform: capitalize;
+    font-size: 14px;
 }
 .crea-playlist{
     color: var(--grey1);
     margin-left: 10px;
-    font-size:18px;
+    font-size:16px;
     font-weight: bold;
     text-transform: capitalize;
+    margin-top: 4px;
 }
 .playlist-apps{
-    font-size: 20px;
+    font-size: 16px;
     color: white;
     font-weight: bold;
     text-transform: uppercase;
@@ -133,6 +190,7 @@ html{font-family: 'Open Sans', sans-serif;
 .down-apps{
     width: 16px;
     margin-right: 10px;
+    margin-top: 4px;
 }
 .down-apps-text{
     color: var(--grey1);
@@ -161,7 +219,7 @@ html{font-family: 'Open Sans', sans-serif;
     aspect-ratio: 1;
 }
 .profilo-text-spo{
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     font-weight: bold;
     text-transform:capitalize;
