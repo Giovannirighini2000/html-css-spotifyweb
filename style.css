@@ -42,6 +42,7 @@ html{font-family: 'Open Sans', sans-serif;
     background-color: #080b12;
     display: flex;
     justify-content: flex-end;
+    overflow: hidden;
 }
 .upgrade-button{
     margin-top: 20px;
@@ -137,6 +138,47 @@ html{font-family: 'Open Sans', sans-serif;
  .cards{
     margin-top: 30px;
 }
+/* hover effects */
+.color-white-hover:hover{
+    color: white;
+
+}
+.hover-background:hover{
+    background-color: white;
+}
+.upgrade-button:hover{
+    transform: scale(1.1);
+}
+.hover-underline:hover{
+    text-decoration: underline;
+}
+.scale-player:hover{
+    transform: scale(1.2);
+}
+.hover-img:hover{
+    opacity: 0.5;
+    
+}
+.column-card{
+    position: relative;
+}
+.position-img-player{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    
+}
+.buttons-img-hover{
+    font-size: 45px; 
+    color: white; 
+    
+}
+ .hover-img:hover .position-img-player{
+    opacity: 1;
+}
+
 @media  screen and (max-width:878px) {
    .card-song{
         flex-basis: calc(100% * (3/12) - 40px / 4);
@@ -535,7 +577,10 @@ html{font-family: 'Open Sans', sans-serif;
 .row-icon-like{
    display: flex;
 }
-
+.colums-autor{
+    display: flex;
+    flex-direction: column;
+}
 
 @media screen and (max-width:878px) {
     .section-song{
