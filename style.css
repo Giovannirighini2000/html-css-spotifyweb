@@ -56,19 +56,15 @@ html{font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     margin-right: 4px;
 }
-.section-content-p{
-   
-    /* margin: 0 auto; */
-}
-
 .up{
     text-transform: uppercase;
     font-size: 12px ;
     font-weight: bold;
-    color: #72757a;
+    color: var(--grey1);
     flex-wrap: wrap;
     column-gap: 20px; 
     justify-content: center;
+    padding-bottom: 40px;
 }
 
 .green-p-main::after{  
@@ -83,14 +79,86 @@ html{font-family: 'Open Sans', sans-serif;
 .container-main-content{
     padding: 20px;
 }
-.container-video-song{
+.played-song{  
+    font-weight: bold;
+    color: white;
+    font-size: 26px;
+}
+.column-card{
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+.bottoms-cards{
+    padding-bottom: 25px;
+}
+.gap-cards{
+    column-gap: 10px;
+}
+.card-song{
+    flex-basis: calc(100% * (2/12) - 10px / 6); 
+}
+.title-song{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.artist-song{
+    color: var(--grey1);
+    font-size: 13px;
+    font-weight: bold;
+    padding-top:10px;
 
 }
+.sottotitle-general{
+    font-size: 13px;
+    color: var(--grey1);
+    font-weight: bold;
+}
+.wrap-song{
+    gap:10px;
 
-
-
-
-
+}
+.bottoms-sottotile{
+    margin-bottom: 12px;
+    padding-top: 50px;
+}
+.cards{
+  flex-basis: calc(100%  * (2/12) - 10px);
+  
+}
+.border-radius-card{
+    border-radius: 150px;
+    object-position:center;
+    aspect-ratio:1;
+}
+ .cards{
+    margin-top: 30px;
+}
+@media  screen and (max-width:878px) {
+   .card-song{
+        flex-basis: calc(100% * (3/12) - 40px / 4);
+    }
+    .wrap-song{
+        flex-wrap: wrap;
+    }
+    .cards{
+        flex-basis: calc(100%  * (3/12) - 10px);
+        
+      }
+    
+}
+@media screen and (max-width:639px) {
+    .card-song{
+        flex-basis: calc(100% * (6/12) - 20px);
+    }
+    .cards{
+        flex-basis: calc(100%  * (6/12) - 10px);
+        
+      }
+}
 
 
 /* MOBILE */
@@ -117,8 +185,6 @@ html{font-family: 'Open Sans', sans-serif;
     gap: 20px;
     display: flex;
     flex-direction: column;  
-    /* padding-left: 20px; */
-    /* padding-top: 20px; */
 }
 .container-contets{
     display: contents
@@ -211,7 +277,6 @@ html{font-family: 'Open Sans', sans-serif;
  background-color: var(--grey1);
  color: var(--grey1);
 }
-
 .profilo-spo{
     width: 25px;
     border-radius: 50%;
