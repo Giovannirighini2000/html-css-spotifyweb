@@ -287,6 +287,7 @@ html{font-family: 'Open Sans', sans-serif;
     text-transform:capitalize;
     font-weight: bold;
     font-size: 14px;
+    padding-right: 80px;
 }
 .row-nav-apps{
     display: flex;
@@ -316,6 +317,7 @@ html{font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     text-transform: capitalize;
     font-size: 14px;
+    padding-right: 117px;
 }
 .crea-playlist{
     color: var(--grey1);
@@ -324,6 +326,7 @@ html{font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     text-transform: capitalize;
     margin-top: 4px;
+    padding-right: 77px;
 }
 .playlist-apps{
     font-size: 16px;
@@ -401,6 +404,7 @@ html{font-family: 'Open Sans', sans-serif;
     }
     .text-control-apps{
         display: none;
+        padding-right: ;
     }
     .spa-apps-home{
         width: 24px; 
@@ -454,6 +458,12 @@ html{font-family: 'Open Sans', sans-serif;
     .extra-pad-down{
         padding-left: 3px;
         margin-bottom: 20px;
+    }
+    .text-control-playlis{
+        padding-right: ;
+    }
+    .crea-playlist{
+
     }
 }
 
