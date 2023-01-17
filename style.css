@@ -99,12 +99,13 @@ html{font-family: 'Open Sans', sans-serif;
 }
 .card-song{
     flex-basis: calc(100% * (2/12) - 10px / 6); 
+    text-align: center;
 }
 .title-song{
     color: white;
     font-size: 15px;
     font-weight: bold;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 .artist-song{
     color: var(--grey1);
